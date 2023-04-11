@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid blue 
+}
+body {
+    /* background-image: url("assets/Background-portfolio-orange.gif");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+
+}
+
+
+.box{
+    width: 450px;
+    height: 400px;
+    padding: 0px;
+    margin-left: 3%;
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 11%;
+    z-index: 2;    
+}
+.box-shadow{
+    width: 450px;
+    height: 400px;
+    padding: 0px;
+    margin-left: 4%;
+    margin-top: 4%;
+    border-color: black;
+    border-width: 8px;
+    border-radius: 11%;
+    z-index: -2;
+    position: absolute;   
+}
+.icon {
+    width: 200px;
+    height: 200px;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+.aboutme-button {
+    width: 170px;
+    height: 60px;
+    padding: 0px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 3px black;
+    border-style: solid;
+    position: static;
+    border-radius: 40%;
+    font-family: 'Quicksand', sans-serif;
+}
+.work-button {
+    width: 170px;
+    height: 60px;
+    padding: 0px;
+    margin-left: 60%;
+    margin-top: 2%;
+    border: 3px black;
+    border-style: solid;
+    position: static;
+    border-radius: 40%;
+    font-family: 'Quicksand', sans-serif;
+    z-index: 1;
+}
+.wrk-btn-shdw{
+    width: 170px;
+    height: 60px;
+    padding: 0px;
+    margin-left: 60%;
+    margin-top: 3%;
+    background-color: black;
+    opacity: 10%;
+    position: absolute;
+    border-radius: 40%;
+    z-index: 3;
+
+}
+/* IMAGE GALLERY CSS */
+.image-gallery { 
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    z-index: 2;
+    position: absolute; 
+    }
+.img1 {
+    width: 30%;
+   /* height: 5000px;*/
+    margin-left: 3%;
+    margin-top: 25%;
+    border-radius: 11%;
+    z-index: 2;
+}
+.img2 {
+    width: 35%;
+   /* height: 5000px;*/
+    margin-left: 70%;
+    margin-top: 0%;
+    border-radius: 11%;
+    position:absolute;
+    z-index: 2;
+}
+.img3 {
+    width: 30%;
+   /* height: 5000px;*/
+    margin-left: 37%;
+    margin-top: 10%;
+    border-radius: 11%;
+    position: absolute;
+    z-index: 2;
+}
+.img4 {
+    width: 35%;
+   /* height: 5000px;*/
+    margin-left: 72%;
+    margin-top: 40%;
+    border-radius: 11%;
+    position: absolute;
+    z-index: 2;
+}
+.img5 {
+    width: 30%;
+   /* height: 5000px;*/
+    margin-left: 39.5%;
+    margin-top: 54%;
+    border-radius: 11%;
+    position: absolute;
+    z-index: 2;
+}
+.img6 {
+    width: 40%;
+   /* height: 5000px;*/
+    margin-left: 0%;
+    margin-top: 68%;
+    border-radius: 11%;
+    position: absolute;
+    z-index: 2;
+}
+.box-wrapper{
+  height:350px;
+  border-radius: 11%;
+}
+
+
+.bigText {
+    font-size: 2em;
+    padding-right: .5ch;
+}
+
+/* MEDIA QUERY FOR MOBILE */
+@media (max-width:735px){
+    nav {
+        padding-left: 0;
+    }
+
+   .image-gallery {
+       padding-bottom: 200%;
+       grid-template-columns: 1fr minmax(400px, 1fr) 1fr;
+       grid-template-areas:
+       ".a."
+       ".b."
+       ".c."
+       ".d."
+       ".e."
+       ".f."
+       ;
+   }
