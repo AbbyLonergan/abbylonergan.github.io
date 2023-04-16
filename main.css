@@ -27,7 +27,13 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     }
-
+nav {
+  position: fixed;
+  z-index: 3;
+  display: flex;  
+  align-items: center;
+  margin: 0 auto;
+}
 header{
     display: grid; 
     grid-template-columns: 1fr; 
@@ -50,7 +56,7 @@ header{
     border-color: black;
     border-width: 8px;
     border-radius: 11%;
-    z-index: -2; 
+    z-index: 1; 
 }
 
 .icon {
@@ -60,15 +66,15 @@ header{
     scale: 50%;
 }
 .aboutme-button {
-    /* width: 170px; */
+    width: 40vw;
     /* height: 60px; */
-    padding: 10px;
-    margin-left: 5%;
-    margin-top: 0%;
+    /* padding: 10px;
+    margin-left: 5%; */
+    /* margin-top: 0%; */
     border: 1px black;
     background-color: white;
     border-style: solid;
-    position: static;
+    /* position: static; */
     border-radius: 40%;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -76,33 +82,20 @@ header{
     -webkit-text-fill-color: black;
 }
 .work-button {
-    /* width: 170px; */
+    width: 40vw;
     /* height: 60px; */
-    padding: 10px;
+    /* padding: 10px; */
     /* margin-left: 110%; */
-    margin-top: 5%;
+    /* margin-top: 5%; */
     border: 1px black;
     background-color: white;
     border-style: solid;
-    position: static;
+    /* position: static; */
     border-radius: 40%;
     font-family: 'Quicksand', sans-serif;
     z-index: 2;
     text-align: center;
     -webkit-text-fill-color: black;
-}
-.wrk-btn-shdw{
-    /* width: 170px; */
-    /* height: 60px; */
-    padding: 0px;
-    margin-left: 10%;
-    margin-top: 0%;
-    background-color: black;
-    opacity: 10%;
-    /* position: absolute; */
-    border-radius: 40%;
-    z-index: 1;
-
 }
 
 h1 {
