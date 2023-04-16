@@ -20,14 +20,20 @@
     "f"
     ;
 }
-.box{
+.container { 
     display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(4, 1fr); 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; 
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
-    width: 450px;
-    height: 400px;
+    }
+
+header{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
     padding: 0px;
     margin-left: 3%;
     margin-top: 3%;
@@ -35,28 +41,27 @@
     border-radius: 11%;
     z-index: 2;    
 }
-.box-shadow{
-    /* width: 450px; */
-    /* height: 400px; */
+.black-outline{
+   /*  width: 450px; */
+     /* height: 400px;  */
     padding: 0px;
     margin-left: 4%;
     margin-top: 4%;
     border-color: black;
     border-width: 8px;
     border-radius: 11%;
-    z-index: -2;
-    position: absolute;   
+    z-index: -2; 
 }
 
 .icon {
-    width: 150px;
-    height: 150px;
+    /* width: 150px; */
+    /* height: 150px; */
     margin-left: 0%;
-    margin-top: 40%;
+    scale: 50%;
 }
 .aboutme-button {
-    width: 170px;
-    height: 60px;
+    /* width: 170px; */
+    /* height: 60px; */
     padding: 10px;
     margin-left: 5%;
     margin-top: 0%;
@@ -71,10 +76,10 @@
     -webkit-text-fill-color: black;
 }
 .work-button {
-    width: 170px;
-    height: 60px;
+    /* width: 170px; */
+    /* height: 60px; */
     padding: 10px;
-    margin-left: 110%;
+    /* margin-left: 110%; */
     margin-top: 5%;
     border: 1px black;
     background-color: white;
@@ -100,13 +105,13 @@
 
 }
 .name {
-    width: 250px;
-    height: 70px;
+    /* width: 250px; */
+    /* height: 70px; */
     text-align: center;
     font-family:'Quicksand', sans-serif;
     font-size: 24;
 }
-.GD {
+.gd {
     font-family:'Quicksand', sans-serif;
 }
 /* IMAGE GALLERY CSS */
