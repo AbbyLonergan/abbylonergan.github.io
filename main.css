@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 }
 /* image gallery for mobile grid */
 .image-gallery {
@@ -47,12 +47,13 @@ nav ul{
     margin: 0 auto;
     justify-content: center;
     gap:30px;
-    padding:10px;
+    padding:30px;
+    font-size: 28px;
 
   }
 
   nav ul li{
-    padding:10px;
+    padding:30px;
     background-color: white;
   }
 
@@ -62,13 +63,16 @@ header{
     grid-template-rows: auto; 
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
-    padding: 0px;
+    padding: 20px;
     margin-left: 3%;
     margin-top: 3%;
     background-color: white;
     border-radius: 11%;
     z-index: 2;
     padding-bottom: 10px;
+    height: 75vw;
+    width: 75vw;
+    z-index: 2;
 }
 a{
     text-decoration:none;
@@ -79,10 +83,11 @@ a{
     padding: 0px;
     /* margin-left: 4%; */
     margin-top: 4%;
-    margin: 0 auto;
+    margin-left: 15%;
     border: 8px solid black;
     border-radius: 11%;
-    z-index: 2; 
+    z-index: -40; 
+    height: 80vw;
 }
 
 .icon {
@@ -97,15 +102,16 @@ a{
     /* padding: 10px;
     margin-left: 5%; */
     /* margin-top: 0%; */
-    border: 1px black;
+    border: 2px black;
     background-color: white;
     border-style: solid;
     /* position: static; */
-    border-radius: 40%;
+    border-radius: 38%;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     z-index: 3;
     -webkit-text-fill-color: black;
+    box-shadow: 5px 10px 13px 5px#aaaaaa;
 }
 .work-button {
     width: 40vw;
@@ -113,15 +119,16 @@ a{
     /* padding: 10px; */
     /* margin-left: 110%; */
     /* margin-top: 5%; */
-    border: 1px black;
+    border: 2px black;
     background-color: white;
     border-style: solid;
     /* position: static; */
-    border-radius: 40%;
+    border-radius: 38%;
     font-family: 'Quicksand', sans-serif;
     z-index: 2;
     text-align: center;
     -webkit-text-fill-color: black;
+    box-shadow: 5px 10px 13px 5px#aaaaaa;
 }
 
 h1 {
