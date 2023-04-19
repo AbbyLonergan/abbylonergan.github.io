@@ -37,13 +37,13 @@ body {
 nav {
     width:100vw;
   position: fixed;
-  margin:0 auto;
   /* top:0px; */
   z-index: 3;
   /* display: flex;   */
   align-items: center;
   margin: 0 auto;
   justify-content: center;
+  margin-top: 10%;
 }
 
 nav ul{
@@ -53,7 +53,7 @@ nav ul{
     align-items: center;
     margin: 0 auto;
     justify-content: center;
-    gap:30px;
+    gap:25px;
     padding:40px;
     font-size: 16px;
     font-weight: 500;
@@ -99,7 +99,7 @@ header {
     border: 8px solid black;
     border-radius: 11%;
     z-index: -40; 
-    margin-top: 12%;
+    margin-top: 20%;
     /* height: 80vw; */
     padding: 0%;
    
@@ -153,17 +153,22 @@ header {
 
 }
 h1 {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
 }
 h2 {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
 }
 h3 {
-    font-size: 30px;
+    font-size: 16px;
+    text-align: center;
+    font-family:'Quicksand', sans-serif;
+}
+h4 {
+    font-size: 25px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
 }
@@ -178,7 +183,7 @@ footer {
     background-color: white;
     opacity: 70%;
     /* height: 30vw; */
-    margin-top: 20%;
+    margin-top: 50%;
 }
 .footericons { 
     display: grid; 
