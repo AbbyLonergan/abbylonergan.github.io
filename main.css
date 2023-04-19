@@ -93,7 +93,6 @@ a{
 header {
     width: 75vw;
      /* height: 400px;  */
-    padding: 0px;
     /* margin-left: 4%; */
     margin-left: 15%;
     border: 8px solid black;
@@ -101,6 +100,7 @@ header {
     z-index: -40; 
     margin-top: 5%;
     /* height: 80vw; */
+    padding: 0%;
    
 }
 
@@ -168,6 +168,21 @@ h3 {
   border-radius: 11%;
 }
 
+footer {
+    background-color: white;
+    opacity: 70%;
+    /* height: 30vw; */
+    margin-top: 20%;
+}
+.footericons { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    scale: 40%;
+    gap: 10%;
+    }
 
 /* MEDIA QUERY FOR MOBILE */
 @media (min-width:1200px){
