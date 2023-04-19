@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 body {
     background-image: url("Assets/Background-portfolio_1_AdobeExpress.gif");
@@ -55,7 +55,7 @@ nav ul{
     justify-content: center;
     gap:30px;
     padding:50px;
-    font-size: 20px;
+    font-size: 16px;
 
   }
 
@@ -89,6 +89,7 @@ nav ul{
 }
 a{
     text-decoration:none;
+    color: black;
     }
 header {
     width: 75vw;
@@ -110,6 +111,7 @@ header {
     margin-left: 0%;
     margin-top: -10%;
     scale: 30%;
+    padding: 0%;
 }
 .aboutme-button {
     width: 30vw;
@@ -126,7 +128,7 @@ header {
     text-align: center;
     z-index: 3;
     -webkit-text-fill-color: black;
-    box-shadow: 5px 10px 13px 5px#aaaaaa;
+    box-shadow:15px 15px 5px #cecece;
 }
 .work-button {
     width: 30vw;
@@ -143,16 +145,16 @@ header {
     z-index: 2;
     text-align: center;
     -webkit-text-fill-color: black;
-    box-shadow: 5px 10px 13px 5px#aaaaaa;
+    box-shadow:15px 15px 5px #cecece;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
 }
 h2 {
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
 }
@@ -182,6 +184,7 @@ footer {
     grid-row-gap: 0px; 
     scale: 40%;
     gap: 10%;
+    border: black;
     }
 
 /* MEDIA QUERY FOR MOBILE */
