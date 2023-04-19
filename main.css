@@ -55,7 +55,7 @@ nav ul{
     justify-content: center;
     gap:30px;
     padding:50px;
-    font-size: 28px;
+    font-size: 20px;
 
   }
 
@@ -79,7 +79,7 @@ nav ul{
     z-index: 2;
     margin-bottom: 4%;
     margin-top: -5%;
-    height: 75vw;
+    /* height: 75vw; */
     width: 75vw;
     align-items: center;
     justify-content: center;
@@ -147,17 +147,17 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
 }
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
 }
 h3 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
 }
