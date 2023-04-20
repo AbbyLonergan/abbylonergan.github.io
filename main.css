@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 body {
     background-image: url("Assets/Background-portfolio_1_AdobeExpress.gif");
@@ -148,9 +148,8 @@ header {
     box-shadow:15px 15px 5px #cecece;
 }
 .text {
-    scale: 100%;
-    margin-bottom: 1%;
-
+    /* scale: 100%; */
+    margin-top: -140px;
 }
 h1 {
     font-size: 24px;
@@ -166,12 +165,14 @@ h3 {
     font-size: 16px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
-    padding: 5%;
+    padding: 7%;
+    margin-top: -110px;
 }
 h4 {
     font-size: 20px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
+    margin-top: -230px;
 }
 /* IMAGE GALLERY CSS */
 
