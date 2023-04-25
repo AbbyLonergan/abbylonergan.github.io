@@ -53,15 +53,15 @@ nav ul{
     align-items: center;
     margin: 0 auto;
     justify-content: center;
-    gap:30px;
+    gap:20px;
     padding:30px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 
   }
 
   nav ul li{
-    padding:26px;
+    padding:20px;
     background-color: white;
   }
 
@@ -78,10 +78,9 @@ nav ul{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 75vw;
+    width: 55vw;
     z-index: 2;
     /* margin: 0 auto; */
-    margin-top: 3%;
     margin-bottom: 5%;
     margin-top: -8%;
     /* height: 75vw; */
@@ -93,16 +92,52 @@ a{
     color: black;
     }
 header {
-    width: 75vw;
+    width: 55vw;
     /* margin-left: 4%; */
-    margin-left: 17%;
+    margin-left: 27%;
     border: 8px solid black;
     border-radius: 11%;
     z-index: -40; 
-    margin-top: 15%;
+    margin-top: 10%;
     /* height: 80vw; */
     padding: 0%;
    
+}
+
+.subline{
+    width: 65vw;
+    /* margin-left: 4%; */
+    margin-left: 21%;
+    border: 8px solid black;
+    border-radius: 11%;
+    z-index: -40; 
+    /* margin-top: 15%; */
+    /* height: 80vw; */
+    padding: 0%;
+   
+}
+.subbox {
+    width: 65vw;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    /* padding: 20px; */
+    background-color: white;
+    opacity: 80%;
+    border-radius: 11%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    z-index: 2;
+    /* margin: 0 auto; */
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-top: -8%;
+    /* height: 75vw; */
+    margin-left: -9%;
 }
 
 .icon {
@@ -114,11 +149,11 @@ header {
     padding: 0%;
 }
 .iconsub {
-    scale: 20%;
-    margin-top: -20%;
+    scale: 60%;
+    margin-top: 10%;
 }
 .aboutme-button {
-    width: 30vw;
+    width: 25vw;
     /* height: 60px; */
     /* padding: 10px;
     margin-left: 5%; */
@@ -135,7 +170,7 @@ header {
     box-shadow:15px 15px 5px #cecece;
 }
 .work-button {
-    width: 30vw;
+    width: 25vw;
     /* height: 60px; */
     /* padding: 10px; */
     /* margin-left: 110%; */
@@ -154,6 +189,9 @@ header {
 .text {
     /* scale: 100%; */
     margin-top: -290px;
+}
+.desc {
+    padding: 5%;
 }
 h1 {
     font-size: 60px;
@@ -174,17 +212,18 @@ h3 {
     margin-top: -60px;
 }
 h4 {
-    font-size: 35px;
+    font-size: 38px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
     margin-top: 10%;
     margin-bottom: 5%;
+    padding: 3%;
 }
 h5{
     font-size: 25px;
     text-align:left;
     font-family:'Quicksand', sans-serif;
-    padding: 1%;
+    padding: 2%;
 }
 h6{
     opacity: 0%;
@@ -219,9 +258,9 @@ footer {
     }
 
 .image1 {
-    scale: 80%;
-    margin-top: -50%;
-    margin-bottom: 10%;
+    scale: 60%;
+    /* margin-top: -50%; */
+    /* margin-bottom: 10%; */
 }
 /* MEDIA QUERY FOR MOBILE */
 @media (min-width:1200px){
