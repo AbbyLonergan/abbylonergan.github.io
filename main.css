@@ -53,15 +53,15 @@ nav ul{
     align-items: center;
     margin: 0 auto;
     justify-content: center;
-    gap:15px;
+    gap:30px;
     padding:30px;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 500;
 
   }
 
   nav ul li{
-    padding:15px;
+    padding:26px;
     background-color: white;
   }
 
@@ -153,17 +153,18 @@ header {
 }
 .text {
     /* scale: 100%; */
-    margin-top: -110px;
+    margin-top: -290px;
 }
 h1 {
-    font-size: 24px;
+    font-size: 60px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
 }
 h2 {
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
+    margin-top: 2%;
 }
 h3 {
     font-size: 16px;
