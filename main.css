@@ -43,7 +43,7 @@ nav {
   align-items: center;
   margin: 0 auto;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 1%;
 }
 
 nav ul{
@@ -103,7 +103,40 @@ header {
     padding: 0%;
    
 }
-
+.sublinehdr{
+    width: 55vw;
+    margin-left: 27%;
+    border: 8px solid black;
+    border-radius: 11%;
+    z-index: -40; 
+    margin-top: 5%;
+    /* height: 80vw; */
+    padding: 0%;
+   
+}
+.subboxhdr {
+    width: 55vw;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    /* padding: 20px; */
+    background-color: white;
+    opacity: 80%;
+    border-radius: 11%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    z-index: 2;
+    /* margin: 0 auto; */
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-top: -8%;
+    height: 45vw;
+    margin-left: -9%;
+}
 .subline{
     width: 65vw;
     /* margin-left: 4%; */
@@ -143,14 +176,14 @@ header {
 .icon {
     /* width: 150px; */
     /* height: 150px; */
-    /* margin-left: 0%;
-    margin-top: -10%; */
+    /* margin-left: 0%;*/
+    margin-top: -10%;
     scale: 35%;
     padding: 0%;
 }
 .iconsub {
-    scale: 60%;
-    margin-top: 10%;
+    scale: 40%;
+    margin-top: -5%;
 }
 .aboutme-button {
     width: 25vw;
@@ -188,7 +221,7 @@ header {
 }
 .text {
     /* scale: 100%; */
-    margin-top: -290px;
+    margin-top: -260px;
 }
 .desc {
     padding: 5%;
@@ -224,6 +257,7 @@ h5{
     text-align:left;
     font-family:'Quicksand', sans-serif;
     padding: 2%;
+    margin-left: 4%;
 }
 h6{
     opacity: 0%;
@@ -244,7 +278,7 @@ footer {
     background-color: white;
     opacity: 70%;
     /* height: 30vw; */
-    margin-top: 50%;
+    margin-top: 20%;
 }
 .footericons { 
     display: grid; 
@@ -253,14 +287,46 @@ footer {
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     scale: 40%;
-    gap: 10%;
+    gap: 20%;
     border: black;
     }
-
 .image1 {
+    padding: 10%;
+    margin-bottom: 10%;
+}
+.slidelogo {
     scale: 60%;
-    /* margin-top: -50%; */
-    /* margin-bottom: 10%; */
+    margin-left: -5%;
+}
+.slide1 {
+    /* scale: 98%; */
+    margin-left: 15%;
+}
+.slide2 {
+    margin-left: 15%;
+}
+.slide3 {
+    margin-left: 15%;
+}
+.slide4 {
+    margin-left: 15%;
+}
+.slide5 {
+    margin-left: 15%;
+}
+.slide6 {
+    margin-left: 15%;
+}
+.slide7 {
+    margin-left: 15%;
+}
+.slide8 {
+    margin-left: 15%;
+}
+.slidepackage {
+    margin-left: 15%;
+    scale: 70%;
+    margin-top: -10%;
 }
 /* MEDIA QUERY FOR MOBILE */
 @media (min-width:1200px){
