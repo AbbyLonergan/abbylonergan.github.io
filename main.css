@@ -5,7 +5,7 @@
     /* border: 1px solid blue; */
 }
 body {
-    background-image: url("Assets/Background-portfolio_1_AdobeExpress.gif");
+    background-image: url("Assets/background.gif");
     background-repeat:no-repeat;
     background-size:cover;
   }
@@ -180,6 +180,9 @@ header {
     margin-top: -10%;
     scale: 35%;
     padding: 0%;
+}
+.abouttext {
+    margin-top: -50%;
 }
 .iconsub {
     scale: 40%;
