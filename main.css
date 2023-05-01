@@ -179,6 +179,7 @@ header {
     /* margin-left: 0%;*/
     margin-top: -10%;
     scale: 35%;
+    padding: 0%;
 }
 .abouttext {
     margin-top: -50%;
@@ -222,8 +223,8 @@ header {
     box-shadow:15px 15px 5px #cecece;
 }
 .text {
-    scale: 230%;
-    margin-top: 25%;
+    /* scale: 100%; */
+    margin-top: -260px;
 }
 .desc {
     padding: 5%;
@@ -247,7 +248,7 @@ h3 {
     margin-top: -60px;
 }
 h4 {
-    font-size: 40px;
+    font-size: 38px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
     margin-top: 10%;
@@ -255,7 +256,7 @@ h4 {
     padding: 3%;
 }
 h5{
-    font-size: 30px;
+    font-size: 25px;
     text-align:left;
     font-family:'Quicksand', sans-serif;
     padding: 2%;
@@ -288,8 +289,8 @@ footer {
     grid-template-rows: 1fr; 
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
-    scale: 50%;
-    gap: 30%;
+    scale: 40%;
+    gap: 20%;
     border: black;
     }
 .image1 {
@@ -329,4 +330,73 @@ footer {
     margin-left: 15%;
     scale: 70%;
     margin-top: -10%;
+}
+/* MEDIA QUERY FOR MOBILE */
+@media (min-width:1200px){
+    nav {
+        padding-left: 0;
+    }
+
+    .image-gallery { 
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto; 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        z-index: 2;
+        /* position: absolute;  */
+        }
+    .img1 {
+        width: 30%;
+       /* height: 5000px;*/
+        margin-left: 3%;
+        margin-top: 25%;
+        border-radius: 11%;
+        z-index: 2;
+    }
+    .img2 {
+        width: 35%;
+       /* height: 5000px;*/
+        margin-left: 70%;
+        margin-top: 0%;
+        border-radius: 11%;
+        position:absolute;
+        z-index: 2;
+    }
+    .img3 {
+        width: 30%;
+       /* height: 5000px;*/
+        margin-left: 37%;
+        margin-top: 10%;
+        border-radius: 11%;
+        position: absolute;
+        z-index: 2;
+    }
+    .img4 {
+        width: 35%;
+       /* height: 5000px;*/
+        margin-left: 72%;
+        margin-top: 40%;
+        border-radius: 11%;
+        position: absolute;
+        z-index: 2;
+    }
+    .img5 {
+        width: 30%;
+       /* height: 5000px;*/
+        margin-left: 39.5%;
+        margin-top: 54%;
+        border-radius: 11%;
+        position: absolute;
+        z-index: 2;
+    }
+    .img6 {
+        width: 40%;
+       /* height: 5000px;*/
+        margin-left: 0%;
+        margin-top: 68%;
+        border-radius: 11%;
+        position: absolute;
+        z-index: 2;
+    }
 }
