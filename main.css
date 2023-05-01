@@ -305,8 +305,10 @@ footer {
     scale: 60%;
 }
 .slidelogo {
-    scale: 60%;
+    scale: 40%;
     margin-left: -5%;
+    margin-top: -20%;
+    margin-bottom: -30%;
 }
 .slide1 {
     /* scale: 98%; */
@@ -335,8 +337,8 @@ footer {
 }
 .slidepackage {
     margin-left: 15%;
-    scale: 70%;
-    margin-top: -10%;
+    scale: 60%;
+    margin-top: -20%;
 }
 /* MEDIA QUERY FOR MOBILE */
 @media (min-width:1200px){
