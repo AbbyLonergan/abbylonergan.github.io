@@ -98,7 +98,7 @@ header {
     border: 8px solid black;
     border-radius: 11%;
     z-index: -40; 
-    margin-top: 10%;
+    margin-top: 7%;
     /* height: 80vw; */
     padding: 0%;
    
@@ -398,5 +398,6 @@ footer {
         border-radius: 11%;
         position: absolute;
         z-index: 2;
+        margin-bottom: 90%;
     }
 }
