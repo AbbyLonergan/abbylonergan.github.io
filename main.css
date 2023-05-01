@@ -4,8 +4,8 @@
     box-sizing: border-box;
     /* border: 1px solid blue; */
 }
-body {
-    background-image: url("Assets/background.gif");
+html {
+    background-image: url("Assets/Background-portfolio_1_copy_AdobeExpress.gif");
     background-repeat:no-repeat;
     background-size:cover;
   }
