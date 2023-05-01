@@ -26,6 +26,7 @@ body {
     "f"
     ;
     padding: 5%;
+    margin-bottom: 50%;
 }
 .container { 
     display: grid; 
@@ -55,7 +56,7 @@ nav ul{
     justify-content: center;
     gap:20px;
     padding:30px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
 
   }
@@ -98,7 +99,7 @@ header {
     border: 8px solid black;
     border-radius: 11%;
     z-index: -40; 
-    margin-top: 7%;
+    margin-top: 6%;
     /* height: 80vw; */
     padding: 0%;
    
@@ -177,12 +178,14 @@ header {
     /* width: 150px; */
     /* height: 150px; */
     /* margin-left: 0%;*/
-    margin-top: -10%;
+    margin-top: -15%;
+    margin-left: 7%;
     scale: 35%;
     padding: 0%;
 }
 .abouttext {
-    margin-top: -50%;
+    margin-top: -46%;
+    margin-left: 5%;
 }
 .iconsub {
     scale: 40%;
@@ -194,7 +197,7 @@ header {
     /* padding: 10px;
     margin-left: 5%; */
     /* margin-top: 0%; */
-    border: 2px black;
+    border: 3px black;
     background-color: white;
     border-style: solid;
     /* position: static; */
@@ -211,7 +214,7 @@ header {
     /* padding: 10px; */
     /* margin-left: 110%; */
     /* margin-top: 5%; */
-    border: 2px black;
+    border: 3px black;
     background-color: white;
     border-style: solid;
     /* position: static; */
@@ -224,7 +227,10 @@ header {
 }
 .text {
     /* scale: 100%; */
-    margin-top: -260px;
+    margin-top: -30%;
+    margin-bottom: 1%;
+    /* position: absolute; */
+    text-align: center;
 }
 .desc {
     padding: 5%;
@@ -241,22 +247,22 @@ h2 {
     margin-top: 2%;
 }
 h3 {
-    font-size: 16px;
-    text-align: center;
+    font-size: 30px;
+    text-align: left;
     font-family:'Quicksand', sans-serif;
     padding: 6%;
     margin-top: -60px;
 }
 h4 {
-    font-size: 38px;
+    font-size: 40px;
     text-align: center;
     font-family:'Quicksand', sans-serif;
     margin-top: 10%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     padding: 3%;
 }
 h5{
-    font-size: 25px;
+    font-size: 30px;
     text-align:left;
     font-family:'Quicksand', sans-serif;
     padding: 2%;
@@ -294,8 +300,9 @@ footer {
     border: black;
     }
 .image1 {
-    padding: 10%;
-    margin-bottom: 10%;
+    padding: 0%;
+    margin-bottom: 1%;
+    scale: 60%;
 }
 .slidelogo {
     scale: 60%;
@@ -349,7 +356,7 @@ footer {
     .img1 {
         width: 30%;
        /* height: 5000px;*/
-        margin-left: 3%;
+        margin-left: -5%;
         margin-top: 25%;
         border-radius: 11%;
         z-index: 2;
@@ -357,7 +364,7 @@ footer {
     .img2 {
         width: 35%;
        /* height: 5000px;*/
-        margin-left: 70%;
+        margin-left: 57%;
         margin-top: 0%;
         border-radius: 11%;
         position:absolute;
@@ -366,7 +373,7 @@ footer {
     .img3 {
         width: 30%;
        /* height: 5000px;*/
-        margin-left: 37%;
+        margin-left: 25%;
         margin-top: 10%;
         border-radius: 11%;
         position: absolute;
@@ -375,7 +382,7 @@ footer {
     .img4 {
         width: 35%;
        /* height: 5000px;*/
-        margin-left: 72%;
+        margin-left: 60%;
         margin-top: 40%;
         border-radius: 11%;
         position: absolute;
@@ -384,7 +391,7 @@ footer {
     .img5 {
         width: 30%;
        /* height: 5000px;*/
-        margin-left: 39.5%;
+        margin-left: 28.5%;
         margin-top: 54%;
         border-radius: 11%;
         position: absolute;
@@ -393,7 +400,7 @@ footer {
     .img6 {
         width: 40%;
        /* height: 5000px;*/
-        margin-left: 0%;
+        margin-left: -10%;
         margin-top: 68%;
         border-radius: 11%;
         position: absolute;
